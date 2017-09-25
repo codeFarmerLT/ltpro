@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.liutie.dao.UserDao">
-    <insert id="addUser" parameterType="user">
+    <insert id="addUser" parameterType="User">
         INSERT INTO t_user
         (user_name,sex)
                 VALUES
